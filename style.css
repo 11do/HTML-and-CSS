@@ -9,7 +9,7 @@ a{
 
 h2{
     font-size: 3.5em;
-    color:#A5B4FC;
+    color:black;
     font-family:'Montserrat', sans-serif;
     
 }
@@ -26,6 +26,7 @@ ul{
 
 div{
     background-color: #ACAEED;
+    
    
 }
 div:hover{
@@ -44,6 +45,7 @@ body{
 .demo{
     border-radius: 50px ;
     
+    
 }
 .demo1{
     border-right:1px solid #8e86b5 ;
@@ -51,4 +53,15 @@ body{
 
 a:hover{
     text-decoration: underline;
+}
+
+header,footer{
+    padding-top:20Px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+section{
+    padding:80px;
+    margin:auto
 }
