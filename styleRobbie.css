@@ -1,0 +1,162 @@
+a{
+    color:black;
+    text-decoration: none;
+    font-size :1em;
+    font-family: 'Manrope', sans-serif;
+    color:#242424;
+   
+}
+
+
+
+
+
+h1{
+    font-size: 3.5em;
+    color:#A5B4FC;
+    font-family:'Montserrat', sans-serif;
+    ;
+    
+}
+
+p{
+    font-size:1.1em;
+    font-family:'Manrope', sans-serif;
+    
+}
+
+ul{
+    font-size : 1em;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.important{
+    background-color: white;
+    color: #242424;
+}
+
+body{
+    
+    color:#F9F8FF;
+    margin: 15px;
+}
+
+.maClass{
+    border-right: 1px #8e86b5 ;
+}
+
+p,ul,h2{
+    color: #f9f8ff;
+}
+
+.cta{
+    /*background: linear-gradient(#8e86b5, #acaeed);
+    */color:black;
+    border-radius: 50px 50px 50px 50px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a[class="cta"]:hover{
+    background: linear-gradient(#696484,#8788BA);
+
+}
+
+div:hover{
+    opacity: 0.5;
+
+}
+
+footer{
+    border: 1px solid #696484;
+    background-color: white;
+    padding: 20px;
+    text-align:justify;
+    
+}
+
+
+    
+    
+
+nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    height: 80px;
+    /*-moz-box-align:baseline; /* Pour aligner verticalement les éléments */
+    
+    background-color:white;/* Pour espacer les éléments horizontalement */
+    /* Autres propriétés de style que vous souhaitez définir */
+    
+}
+
+  img[alt="robbie"]{
+     display:flex;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-bottom: 100px;
+     justify-content: center;
+  }
+
+  h1,p,a[class="cta"]{
+    display:flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+  }
+.maClass2{
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    
+    gap:20px
+    
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+
+  section{
+    background-color: #1F2039;
+  }
+
+  table{
+    border-collapse: collapse;
+
+  }
+
+  td,th{
+    border:1px solid white
+  }
+
+  td{
+    padding: 15px
+  }
+
+  caption{
+    
+    margin:15px;
+  }
+
+  .tableau{
+    background-color:#696484;
+  }
+
+  form{
+    background-color: #696484;
+  }
+
+
+
+
+
+
+
